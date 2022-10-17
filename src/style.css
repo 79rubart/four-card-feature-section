@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.features {
+    background: #888888;
+    padding: 6em 0;
+}
+
+.tool-features {
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 0 4em;
+}
+
+.features-title {
+    padding: 4em 0 3em;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0 0 0.2em;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description {
+    width: 549px;
+    font-size: 15px;
+    margin: 2em auto 0;
+}
+
+#box {
+    display: inline-block;
+}
+
+.box-description {
+    text-align: justify;
+}
+
+.box-description h1 {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+    width: 277px;
+    text-align: initial;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+.supervisor, .calculator {
+    vertical-align: top;
+    margin: 9em 0;
+}
+
+.features-box {
+    text-align: initial;
+    margin: 0 1.5em;
+}
+
+.team-builder {
+    margin: 0 0 1.5em;
+}
+
+.box-description {
+    margin: 0 0 3em 0;
+}
+
+.box-description h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon {
+    text-align: right;
+}
+
+.attribution {
+    width: 940px;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}

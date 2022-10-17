@@ -8,42 +8,64 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div>
-      <div>
-        <h1>Reliable, efficient delivery</h1>
-        <h2>Powered by Technology</h2>
-        <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
-      </div>
-      <div>
-        <div>
-        Supervisor
-        Monitors activity to identify project roadblocks
+  <main>
+    <section class="features">
+      <div class="tool-features">
+        <div class="features-title">
+          <h1 class="title">Reliable, efficient delivery</h1>
+          <h2 class="subtitle">Powered by Technology</h2>
+          <p class="description">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
         </div>
-        <div>
-          <div>
-          Team Builder
-          Scans our talent network to create the optimal team for your project
+        <div class="box-of-boxes">
+          <div id="box" class="supervisor">
+            <div class="box-description">
+              <h1>Supervisor</h1>
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
+            <div class="icon">
+              <img src="images/icon-supervisor.svg" alt="Magnifying Glass">
+            </div>
           </div>
+          <div id="box" class="features-box">
+            <div class="team-builder">
+              <div class="box-description">
+                <h1>Team Builder</h1>
+                <p>Scans our talent network to create the optimal team for your project</p>
+              </div>
+              <div class="icon">
+                <img src="images/icon-team-builder.svg" alt="Homepage Icon">
+              </div>
+            </div>
 
-          <div>
-          Karma
-          Regularly evaluates our talent to ensure quality
+            <div class="karma">
+              <div class="box-description">
+                <h1>Karma</h1>
+                <p>Regularly evaluates our talent to ensure quality</p>
+              </div>
+              <div class="icon">
+                <img src="images/icon-karma.svg" alt="Lamp">
+              </div>
+            </div>
+          </div>
+          <div id="box" class="calculator">
+            <div class="box-description">
+              <h1>Calculator</h1>
+              <p>Uses data from past projects to provide better delivery estimates</p>
+            </div>
+            <div class="icon">
+              <img src="images/icon-calculator.svg" alt="Desktop Monitor">
+            </div>
           </div>
         </div>
-        Calculator
-        Uses data from past projects to provide better delivery estimates
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
   
   <footer>
     <p class="attribution">

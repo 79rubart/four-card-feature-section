@@ -1,20 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    color: #494b59;
 }
 
 .features {
-    background: #888888;
-    padding: 6em 0;
+    background: #f0f0f0;
+    padding: 7em 0;
 }
 
 .tool-features {
-    background: #FFFFFF;
+    background: #fafafa;
     width: 940px;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
     padding: 0 0 4em;
+    box-shadow: 10px 10px 20px 0px rgb(73 75 89 / 30%);
 }
 
 .features-title {
@@ -52,17 +54,29 @@ body {
 }
 
 .supervisor, .team-builder, .karma, .calculator {
+    background: #ffffff;
     width: 277px;
     text-align: initial;
     box-sizing: border-box;
-    border: 1px solid #000000;
+    border-top: 3px solid #000000;
     border-radius: 5px;
     padding: 1.5em;
+    box-shadow: 10px 10px 20px 0px rgb(73 75 89 / 30%);
+}
+
+.supervisor:hover, .team-builder:hover, .karma:hover, .calculator:hover {
+    width: 287px;
+    height: 205px;
+    transition: 400ms;
 }
 
 .supervisor, .calculator {
     vertical-align: top;
     margin: 9em 0;
+}
+
+.supervisor {
+    border-color: #49d0cf;
 }
 
 .features-box {
@@ -72,6 +86,16 @@ body {
 
 .team-builder {
     margin: 0 0 1.5em;
+    border-color: #ea5453;
+}
+
+.karma {
+    border-color: #f8ae4f;
+}
+
+
+.calculator {
+    border-color: #569beb;
 }
 
 .box-description {

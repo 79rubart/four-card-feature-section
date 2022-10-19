@@ -118,3 +118,38 @@ body {
     text-align: center;
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 480px) {
+    .features {
+        background: #fafafa;
+        padding: 0;
+    }
+
+    .tool-features {
+        text-align: center;
+        width: auto;
+        padding: 3em 1em;
+        box-shadow: none;
+    }
+
+    .description {
+        width: auto;
+    }
+
+    .features-box {
+        margin: 0 0 0 0;
+    }
+
+    .supervisor, .team-builder, .karma, .calculator {
+        margin: 0 0 2em;
+    }
+
+    .icon img {
+        width: 40px;
+    }
+
+    .attribution {
+        margin: 0 auto;
+        width: auto;
+    }
+}

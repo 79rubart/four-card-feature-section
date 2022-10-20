@@ -46,11 +46,13 @@ body {
 
 .box-description {
     text-align: justify;
+    margin: 0 0 3em 0;
 }
 
 .box-description h1 {
     font-size: 20px;
     margin-bottom: 0.5em;
+    font-weight: 600;
 }
 
 .supervisor, .team-builder, .karma, .calculator {
@@ -93,18 +95,8 @@ body {
     border-color: #f8ae4f;
 }
 
-
 .calculator {
     border-color: #569beb;
-}
-
-.box-description {
-    margin: 0 0 3em 0;
-}
-
-.box-description h1 {
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .icon {
